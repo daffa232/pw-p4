@@ -1,28 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>Form Registrasi</title>
-    </head>
-    <body>
-        <h1>Form Registrasi</h1>
-        <form action="" method="post" name="form1">
-            Nama <input type="text" name="nama" size="20" maxlength="20" placeholder="Nama Lengkap" required><br>
-            Alamat <textarea type="text" name="alamat" rows="3"  cols="50"></textarea><br>
-            Email <input type="email" name="email" size="20" maxlength="20" placeholder="Alamat Email" required><br>
-            Jenis Kelamin <input type="radio" name="jenkel" value="pria">pria<br>
-                          <input type="radio" name="jenkel" value="wanita">Wanita<br>
-                          
-            Gawai<br>
-            <input type="checkbox" name="gawai" value="digicam">Digital Camera<br>
-            <input type="checkbox" name="gawai" value="phone">Phone<br>
-            <input type="checkbox" name="gawai" value="tablet">Tablet<br>
-            Operating System <select name="os">
-                <option value="windows">windows</option>
-                <option value="linux">Linux</option>
-                <option value="Lainnya...">Lainnya</option>
-            </select><br>
-    Foto <input type="file" name="foto" accept=".jpg,.png,.jpeg"><br><br>
-    <input type="submit" value="Submit">
-        </form>
-    </body>
+        <title>Belajar Membuat Tabel HTML</title>
+</head>
+<body>
+<center>
+    <table border="1"  cellpadding"10" cellspacing"8">
+       
+        <tr>
+            <td rowspan="4">
+                <a href="https://budiluhur.ac.id"> <img src="https://raw.githubusercontent.com/daffa232/pw-p4/main/Smile.png" width="300" height="300">
+            <center>
+			<a href="https://www.youtube.com/">Klik di sini untuk ke Youtube</a>
+			</center>
+			</td>
+			 
+           <td> <h2>Isi Data di sini</h2>
+			Nama:<input type="text" name="nama" size="20" maxlength="20" placeholder="Nama"><br>
+			<br>
+			Jenis Kelamin : <br><input type="radio" name="jenkel" value="P">Pria<br>
+						    <input type="radio" name="jenkel" value="W">Wanita<br>
+			<br>
+			Hobi:<br>
+			<input type="checkbox" name="hobi2" value="nonton">Menonton Film<br>
+			<input type="checkbox" name="hobi2" value="baca">Membaca Buku<br>
+			<input type="checkbox" name="hobi2" value="game">Bermain Game<br>
+			<input type="checkbox" name="hobi2" value="olahraga">Olahraga<br>
+			<input type="checkbox" name="hobi2" value="lain">Lainnya...<br>
+			<br>
+			<input type="submit" value="Kirim">
+			<br>
+			<table border="1" cellpadding="10">
+			<tr>
+			<td width="50" bgcolor="Red" >Merah</td>
+			<td width="50" bgcolor="Yellow" >Kuning</td>
+			<td width="50" bgcolor="Blue" >Biru</td>
+			<td width="50" bgcolor="Green" >Hijau</td>
+			</tr>
+			</table>
+		   </td>
+		   </center>
+    </table>
+
+</body>
 </html>
