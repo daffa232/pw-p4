@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Registrasi</title>
+    </head>
+    <body>
+        <h1>Form Registrasi</h1>
+        <form action="" method="post" name="form1">
+            Nama <input type="text" name="nama" size="20" maxlength="20" placeholder="Nama Lengkap" required><br>
+            Alamat <textarea type="text" name="alamat" rows="3"  cols="50"></textarea><br>
+            Email <input type="email" name="email" size="20" maxlength="20" placeholder="Alamat Email" required><br>
+            Jenis Kelamin <input type="radio" name="jenkel" value="pria">pria<br>
+                          <input type="radio" name="jenkel" value="wanita">Wanita<br>
+                          
+            Gawai<br>
+            <input type="checkbox" name="gawai" value="digicam">Digital Camera<br>
+            <input type="checkbox" name="gawai" value="phone">Phone<br>
+            <input type="checkbox" name="gawai" value="tablet">Tablet<br>
+            Operating System <select name="os">
+                <option value="windows">windows</option>
+                <option value="linux">Linux</option>
+                <option value="Lainnya...">Lainnya</option>
+            </select><br>
+    Foto <input type="file" name="foto" accept=".jpg,.png,.jpeg"><br><br>
+    <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
